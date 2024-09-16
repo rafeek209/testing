@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongoexpress-config
+  namespace: mongo-express
+data:
+  ME_CONFIG_MONGODB_SERVER: mongodb-clusterip.mongo-db.svc.cluster.local
