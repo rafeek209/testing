@@ -1,0 +1,6 @@
+public_subnet_name      = "prod-public-subnet"
+private_subnet_name     = "prod-private-subnet"
+public_subnet_cidr      = "10.0.1.0/24"
+private_subnet_cidr     = "10.0.2.0/24"
+public_instance_name     = "prod-public-instance"
+private_instance_name    = "prod-private-instance"
